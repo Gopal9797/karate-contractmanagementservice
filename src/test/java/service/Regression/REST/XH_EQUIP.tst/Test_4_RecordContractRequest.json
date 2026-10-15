@@ -1,0 +1,75 @@
+{
+  "contractSpecification": [
+    {
+      "contractParameter": [
+        {
+          "key": "Technician_Name",
+          "value": "test"
+        },
+        {
+          "key": "Technician_Id",
+          "value": "12345"
+        },
+        {
+          "key": "Job_Id",
+          "value": "99876"
+        },
+        {
+          "key": "Customer_Name",
+          "value": "test1"
+        },
+        {
+          "key": "Account_Number",
+          "value": "8720101010108528"
+        },
+        {
+          "key": "Phone_Number",
+          "value": "5713329981"
+        },
+        {
+          "key": "Street_Address",
+          "value": "2121 Wilkes Ct"
+        },
+        {
+          "key": "City",
+          "value": "Herndon"
+        },
+        {
+          "key": "State",
+          "value": "VA"
+        },
+        {
+          "key": "ZipCode",
+          "value": "20170"
+        }
+      ],
+      "presentationOrder": 1,
+      "signer": [
+        {
+          "emailAddress": "mounika_munganda@cable.comcast.com",
+          "getDocusignURLForSigner": true,
+          "name": "test",
+          "redirectURL": "http://www.google.com",
+          "role": "Technician"
+        },
+        {
+          "emailAddress": "mounika_munganda@cable.comcast.com",
+          "getDocusignURLForSigner": false,
+          "name": "test",
+          "redirectURL": "http://www.google.com",
+          "role": "Customer"
+        }
+      ],
+      "termID": "XH_EQUIP",
+      "termQualifiers": {
+        "language": "ENGLISH",
+        "stateCode": "AL"
+      }
+    }
+  ],
+  "customerIdentifier": {
+    "key": "ACCOUNT_NUMBER",
+    "value": "8210100200228697"
+  },
+  "orderID": "1160005563451015"
+}

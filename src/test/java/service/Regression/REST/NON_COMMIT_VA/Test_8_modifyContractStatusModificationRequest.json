@@ -1,0 +1,6 @@
+{
+  "acceptanceMethod": "DOT_COM",
+  "contractID": "#(ContractID1)",
+  "orderID": "#(OrderID)",
+  "status": "ACKNOWLEDGED"
+}

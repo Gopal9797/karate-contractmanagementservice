@@ -1,0 +1,16 @@
+{
+  "contractCriteria": {
+    "customerIdentifier": [
+      {
+        "key": "ACCOUNT_NUMBER",
+        "value": "8210100200228895"
+      }
+    ],
+    "termID": null,
+    "orderID": "#(OrderId)",
+    "termType": [
+      "XH"
+    ]
+  },
+  "resultSpecification": null
+}

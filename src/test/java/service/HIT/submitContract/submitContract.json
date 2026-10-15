@@ -1,0 +1,84 @@
+{
+  "acceptanceMethod": "WEB",
+  "accountNumber": "8069100010869088",
+  "billingContractSpecification": [
+    {
+      "billingCode": "OT0CI",
+      "action": "ADD",
+      "startDate": "2021-08-20T00:00:00.000+0000"
+    }
+  ],
+  "baseContractParameter": [
+    {
+      "value": "CONTRACT",
+      "key": "CustomerFirstName"
+    },
+    {
+      "value": "HSD",
+      "key": "CustomerLastName"
+    },
+    {
+      "value": "1 SUNNY CIR",
+      "key": "CustomerServiceAddressStreet"
+    },
+    {
+      "value": "APT 100",
+      "key": "CustomerServiceAddressLine2"
+    },
+    {
+      "value": "LIVERMORE",
+      "key": "CustomerServiceAddressCity"
+    },
+    {
+      "value": "CA",
+      "key": "CustomerServiceAddressState"
+    },
+    {
+      "value": "94551",
+      "key": "CustomerServiceAddressZip"
+    },
+    {
+      "value": "09/04/2020",
+      "key": "OrderDate"
+    },
+    {
+      "value": "1001549560312111",
+      "key": "OrderId"
+    },
+    {
+      "value": "WEB",
+      "key": "AcceptanceChannel"
+    },
+    {
+      "value": "8919100010857556",
+      "key": "Account_Number"
+    },
+    {
+      "value": "1 SUNNY CIR",
+      "key": "CustomerBillingAddressStreet"
+    },
+    {
+      "value": "APT 3",
+      "key": "CustomerBillingAddressLine2"
+    },
+    {
+      "value": "Richmond",
+      "key": "CustomerBillingAddressCity"
+    },
+    {
+      "value": "VA",
+      "key": "CustomerBillingAddressState"
+    },
+    {
+      "value": "23223",
+      "key": "CustomerBillingAddressZip"
+    },
+    {
+      "value": "OMNI-TEST",
+      "key": "AffiliateName"
+    }
+  ],
+  "orderID": "1001549560312112",
+  "language": "ENGLISH",
+  "salesChannel": "Telesales"
+}

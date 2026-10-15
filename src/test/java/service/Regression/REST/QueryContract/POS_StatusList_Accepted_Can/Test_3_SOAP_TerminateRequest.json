@@ -1,0 +1,58 @@
+{
+  "accountNumber": "#(Acc3)",
+  "orderID": "#(OrderId1)",
+  "orderScheduledDate": "#(global_extension.todaysDate)",
+  "salesChannel": "CMS",
+  "acceptanceMethod": "Agent_Acceptance",
+  "language": "ENGLISH",
+  "cancelOrder": "false",
+  "disconnectAccount": "false",
+  "billingContractSpecification": [
+    {
+      "billingCode": "#(TrackingCode)",
+      "outlet": "#(Outlet1)",
+      "termID": null,
+      "startDate": "#(global_extension.currentTime)",
+      "endDate": null,
+      "action": "ADD",
+      "overrideContractParameter": [
+        {
+          "key": "OUTLET",
+          "value": "#(Outlet1)"
+        }
+      ]
+    },
+    {
+      "billingCode": "#(TrackingCode_Commit_WO_VA)",
+      "outlet": "#(Outlet2)",
+      "termID": null,
+      "startDate": "#(global_extension.currentTime)",
+      "endDate": "#(global_extension.currentTime)",
+      "action": "REMOVE",
+      "overrideContractParameter": [
+        {
+          "key": "outlet",
+          "value": "#(Outlet2)"
+        }
+      ]
+    }
+  ],
+  "baseContractParameter": [
+    {
+      "key": "Account_Number",
+      "value": "#(Acc3)"
+    },
+    {
+      "key": "OrderDate",
+      "value": "#(global_extension.currentTime)"
+    },
+    {
+      "key": "ACCEPTANCECHANNEL",
+      "value": "VISION"
+    },
+    {
+      "key": "ORDERID",
+      "value": "#(OrderId1)"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "version": true,
+  "size": 500,
+  "sort": [
+    {
+      "@timestamp": {
+        "order": "desc",
+        "unmapped_type": "boolean"
+      }
+    }
+  ],
+  "aggs": {
+    "2": {
+      "date_histogram": {
+        "field": "@timestamp",
+        "fixed_interval": "30s",
+        "time_zone": "Asia/Calcutta",
+        "min_doc_count": 1
+      }
+    }
+  },
+  "stored_fields": [
+    "*"
+  ],
+  "script_fields": {},
+  "docvalue_fields": [
+    {
+      "field": "@timestamp",
+      "format": "date_time"
+    }
+  ],
+  "_source": {
+    "excludes": []
+  },
+  "query": {
+    "bool": {
+      "must": [],
+      "filter": [
+        {
+          "multi_match": {
+            "type": "phrase",
+            "query": "CurrenCode_1",
+            "lenient": true
+          }
+        },
+        {
+          "match_phrase": {
+            "audit.Service": "contract-management-service"
+          }
+        },
+        {
+          "exists": {
+            "field": "_index"
+          }
+        },
+        {
+          "range": {
+            "@timestamp": {
+              "gte": "2024-05-28T11:30:45.673Z",
+              "lte": "2024-05-28T11:35:45.674Z",
+              "format": "strict_date_optional_time"
+            }
+          }
+        }
+      ],
+      "should": [],
+      "must_not": []
+    }
+  },
+  "highlight": {
+    "pre_tags": [
+      "@opensearch-dashboards-highlighted-field@"
+    ],
+    "post_tags": [
+      "@/opensearch-dashboards-highlighted-field@"
+    ],
+    "fields": {
+      "*": {}
+    },
+    "fragment_size": 2147483647
+  }
+}

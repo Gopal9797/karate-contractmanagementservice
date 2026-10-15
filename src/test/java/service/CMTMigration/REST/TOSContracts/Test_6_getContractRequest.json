@@ -1,0 +1,11 @@
+{
+  "contractID": [
+    "#(contractID)"
+  ],
+  "responseSpecification": {
+    "dataScope": [
+      "ETF_DETAILS",
+      "LEGAL_DOCUMENT"
+    ]
+  }
+}

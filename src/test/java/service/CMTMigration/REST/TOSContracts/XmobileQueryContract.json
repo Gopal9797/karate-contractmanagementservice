@@ -1,0 +1,13 @@
+{
+  "contractCriteria": {
+    "customerIdentifier": [
+      {
+        "key": "IDENTITY_ID",
+        "value": "GK.test"
+      }
+    ],
+    "termID": [
+      "#(TermID)"
+    ]
+  }
+}

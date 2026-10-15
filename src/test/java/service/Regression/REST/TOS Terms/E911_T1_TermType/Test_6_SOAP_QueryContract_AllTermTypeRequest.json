@@ -1,0 +1,17 @@
+{
+  "contractCriteria": {
+    "termID": null,
+    "orderID": null,
+    "status": null,
+    "termType": [
+      "ALL"
+    ],
+    "customerIdentifier": [
+      {
+        "key": "Account_Number",
+        "value": "#(DDP_Acc)"
+      }
+    ]
+  },
+  "resultSpecification": null
+}

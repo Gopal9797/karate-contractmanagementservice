@@ -1,0 +1,8 @@
+{
+  "billingArrangementID": [
+    "#(AccountNumber)"
+  ],
+  "billingArrangementProfile": [
+    "ADVANCE"
+  ]
+}

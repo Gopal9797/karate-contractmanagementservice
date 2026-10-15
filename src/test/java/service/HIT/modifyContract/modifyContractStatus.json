@@ -1,0 +1,7 @@
+{
+  "acceptanceMethod": "WEB",
+  "contractID": "#(contractID)",
+  "orderID": "12345",
+  "contractEndDate": "#(global_extension.todaysDate)",
+  "status": "DECLINED"
+}

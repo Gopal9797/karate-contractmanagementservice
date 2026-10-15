@@ -1,0 +1,7 @@
+{
+  "acceptanceMethod": "WEB",
+  "contractID": "#(contractID)",
+  "status": "CANCELLED",
+  "contractEndDate": "#(global_extension.todaysDate)",
+  "sourceChannel": "Karate_SMS"
+}

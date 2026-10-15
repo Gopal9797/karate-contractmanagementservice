@@ -1,0 +1,83 @@
+{
+  "acceptanceMethod": "WEB",
+  "contractSpecification": [
+    {
+      "contractParameter": [
+        {
+          "key": "CustomerFirstName",
+          "value": "Manikantha"
+        },
+        {
+          "key": "CustomerLastName",
+          "value": "Pothuri"
+        },
+        {
+          "key": "CustomerBillingAddressStreet",
+          "value": "2121 Wilkes Ct"
+        },
+        {
+          "key": "CustomerBillingAddressLine2",
+          "value": "Apt 204"
+        },
+        {
+          "key": "CustomerBillingAddressCity",
+          "value": "Herndon"
+        },
+        {
+          "key": "CustomerBillingAddressState",
+          "value": "VA"
+        },
+        {
+          "key": "CustomerBillingAddressZip",
+          "value": "20170"
+        },
+        {
+          "key": "CustomerServiceAddressStreet",
+          "value": "22265 Pacific Blvd"
+        },
+        {
+          "key": "CustomerServiceAddressLine2",
+          "value": "2nd Floor"
+        },
+        {
+          "key": "CustomerServiceAddressCity",
+          "value": "Dulles"
+        },
+        {
+          "key": "CustomerServiceAddressState",
+          "value": "VA"
+        },
+        {
+          "key": "CustomerServiceAddressZip",
+          "value": "20166"
+        },
+        {
+          "key": "Account_Number",
+          "value": "8210100200239991"
+        }
+      ],
+      "contractStartDate": "#(global_extension.todaysDate)",
+      "signer": [
+        {
+          "emailAddress": "mounika_munganda@comcast.com",
+          "name": "CMSTest",
+          "role": "CUSTOMER",
+          "getDocusignURLForSigner": true,
+          "redirectURL": "https://xmagent.xfinity.com/staging/checkout"
+        }
+      ],
+      "termID": "XMOBILE_CONSENT_DS02",
+      "termQualifiers": {
+        "language": "ENGLISH",
+        "marketID": "",
+        "stateCode": "AL"
+      }
+    }
+  ],
+  "customerIdentifier": {
+    "key": "IDENTITY_ID",
+    "value": "GK.test"
+  },
+  "orderID": "123",
+  "salesChannel": "SalesChannel_QA"
+}

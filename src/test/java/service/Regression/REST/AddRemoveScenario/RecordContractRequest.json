@@ -1,0 +1,102 @@
+{
+  "acceptanceMethod": "WEB",
+  "contractSpecification": [
+    {
+      "contractParameter": [
+        {
+          "key": "Account_Number",
+          "value": "#(AccountNumber)"
+        },
+        {
+          "key": "OrderDate",
+          "value": "#(global_extension.todaysDate)"
+        },
+        {
+          "key": "ACCEPTANCECHANNEL",
+          "value": "QA"
+        },
+        {
+          "key": "ORDERID",
+          "value": "#(OrderId)"
+        },
+        {
+          "key": "CustomerFirstName",
+          "value": "Manikantha"
+        },
+        {
+          "key": "ustomerLastName",
+          "value": "Pothuri"
+        },
+        {
+          "key": "CustomerBillingAddressStreet",
+          "value": "2121 Wilkes Ct"
+        },
+        {
+          "key": "CustomerBillingAddressLine2",
+          "value": "Apt 204"
+        },
+        {
+          "key": "CustomerBillingAddressCity",
+          "value": "Herndon"
+        },
+        {
+          "key": "CustomerBillingAddressState",
+          "value": "VA"
+        },
+        {
+          "key": "CustomerBillingAddressZip",
+          "value": "20170"
+        },
+        {
+          "key": "CustomerServiceAddressStreet",
+          "value": "22265 Pacific Blvd"
+        },
+        {
+          "key": "CustomerServiceAddressLine2",
+          "value": "2nd Floor"
+        },
+        {
+          "key": "CustomerServiceAddressCity",
+          "value": "Dulles"
+        },
+        {
+          "key": "CustomerServiceAddressState",
+          "value": "VA"
+        },
+        {
+          "key": "CustomerServiceAddressZip",
+          "value": "20166"
+        },
+        {
+          "key": "Outlet",
+          "value": "1"
+        }
+      ],
+      "contractStartDate": "#(global_extension.todaysDate)",
+      "legacyContractDetail": {
+        "billerAcceptanceCode": "OT695",
+        "billerTrackingCode": "#(CSG_TrackingCode)",
+        "outlet": "1"
+      },
+      "signer": [
+        {
+          "emailAddress": "cmstest@comcast.com",
+          "name": "CMSTest",
+          "role": "CUSTOMER"
+        }
+      ],
+      "termID": "#(TermID)",
+      "termQualifiers": {
+        "language": "ENGLISH",
+        "marketID": "#(MarketId)",
+        "stateCode": "AL"
+      }
+    }
+  ],
+  "customerIdentifier": {
+    "key": "ACCOUNT_NUMBER",
+    "value": "#(AccountNumber)"
+  },
+  "orderID": "#(OrderId)",
+  "salesChannel": "SalesChannel_QA"
+}

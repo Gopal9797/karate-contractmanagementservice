@@ -1,0 +1,111 @@
+{
+  "acceptanceMethod": "WEB",
+  "accountNumber": "#(AccountNumber)",
+  "cancelOrder": "false",
+  "disconnectAccount": "false",
+  "orderScheduledDate": "#(global_extension.todaysDate)",
+  "billingContractSpecification": [
+    {
+      "billingCode": "HT468",
+      "action": "ADD",
+      "startDate": "#(global_extension.todaysDate)"
+    },
+    {
+      "billingCode": "CT776",
+      "action": "ADD",
+      "startDate": "#(global_extension.todaysDate)"
+    },
+    {
+      "billingCode": "ST188",
+      "action": "ADD",
+      "startDate": "#(global_extension.todaysDate)"
+    },
+    {
+      "billingCode": "OT1BE",
+      "action": "ADD",
+      "startDate": "#(global_extension.todaysDate)"
+    },
+    {
+      "billingCode": "AT652",
+      "action": "ADD",
+      "startDate": "#(global_extension.todaysDate)"
+    }
+  ],
+  "baseContractParameter": [
+    {
+      "value": "JOHN",
+      "key": "CustomerFirstName"
+    },
+    {
+      "value": "PALLOTTA",
+      "key": "CustomerLastName"
+    },
+    {
+      "value": "7201 KEYSTONE ST",
+      "key": "CustomerServiceAddressStreet"
+    },
+    {
+      "value": "APT 202",
+      "key": "CustomerServiceAddressLine2"
+    },
+    {
+      "value": "PHILADELPHIA",
+      "key": "CustomerServiceAddressCity"
+    },
+    {
+      "value": "PA",
+      "key": "CustomerServiceAddressState"
+    },
+    {
+      "value": "19135",
+      "key": "CustomerServiceAddressZip"
+    },
+    {
+      "value": "02/10/2023 9:33:43 AM",
+      "key": "OrderDate"
+    },
+    {
+      "value": "23894723948",
+      "key": "OrderID"
+    },
+    {
+      "value": "WEB",
+      "key": "AcceptanceChannel"
+    },
+    {
+      "value": "1",
+      "key": "Outlet"
+    },
+    {
+      "value": "#(AccountNumber)",
+      "key": "Account_Number"
+    },
+    {
+      "value": "7201 KEYSTONE ST",
+      "key": "CustomerBillingAddressStreet"
+    },
+    {
+      "value": "APT 202",
+      "key": "CustomerBillingAddressLine2"
+    },
+    {
+      "value": "PHILADELPHIA",
+      "key": "CustomerBillingAddressCity"
+    },
+    {
+      "value": "PA",
+      "key": "CustomerBillingAddressState"
+    },
+    {
+      "value": "19135",
+      "key": "CustomerBillingAddressZip"
+    },
+    {
+      "value": "Dotcom",
+      "key": "AffiliateName"
+    }
+  ],
+  "orderID": "23894723948",
+  "language": "ENGLISH",
+  "salesChannel": "Web"
+}

@@ -1,0 +1,18 @@
+{
+  "contractID": [
+    "#(contractID)",
+    "#(contractID_2)"
+  ],
+  "responseSpecification": {
+    "dataScope": [
+      "CONTRACT_PARAMETERS",
+      "LEGAL_DOCUMENT",
+      "VALUE_ADD_DETAILS",
+      "PRESENTATION_VIEW",
+      "ETF_DETAILS",
+      "SIGNER_DETAILS",
+      "DOCUSIGN_DETAILS"
+    ],
+    "presentationViewName": "AUTOGEN"
+  }
+}

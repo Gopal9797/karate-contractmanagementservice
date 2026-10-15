@@ -1,0 +1,12 @@
+{
+  "contractCriteria": {
+    "orderID": "1160005567251015",
+    "customerIdentifier": [
+      {
+        "key": "ACCOUNT_NUMBER",
+        "value": "8210100200228895"
+      }
+    ]
+  },
+  "resultSpecification": null
+}

@@ -1,0 +1,18 @@
+{
+  "contractID": [
+    "#(contractID_Equip)",
+    "#(contractID_Bulk)"
+  ],
+  "responseSpecification": {
+    "dataScope": [
+      "ETF_DETAILS",
+      "LEGAL_DOCUMENT",
+      "SIGNER_DETAILS",
+      "CONTRACT_PARAMETERS",
+      "VALUE_ADD_DETAILS",
+      "BILLING_CODE_DETAILS",
+      "DOCUSIGN_DETAILS"
+    ],
+    "presentationViewName": null
+  }
+}

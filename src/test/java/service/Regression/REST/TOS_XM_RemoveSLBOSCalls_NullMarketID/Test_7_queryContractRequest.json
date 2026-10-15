@@ -1,0 +1,13 @@
+{
+  "contractCriteria": {
+    "customerIdentifier": [
+      {
+        "key": "IDENTITY_ID",
+        "value": "GK.test"
+      }
+    ],
+    "termID": [
+      "XMOBILE_CONSENT_DS02"
+    ]
+  }
+}

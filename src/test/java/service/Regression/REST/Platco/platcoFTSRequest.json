@@ -1,0 +1,10 @@
+{
+  "operationName": "ServiceAccountQuery",
+  "variables": {
+    "serviceAccountsFilter": {
+      "attribute": "customerRelationshipId",
+      "value": "test-cr-id-1"
+    }
+  },
+  "query": "query ServiceAccountQuery($serviceAccountsFilter: ServiceAccountsFilter!) { serviceAccounts(filter: $serviceAccountsFilter) { __typename serviceAccountId xboAccount { __typename xboServiceAccountId } customerRelationship { __typename customerRelationshipId acquisitionDate contract { __typename contractId customerRelationshipId termId } } } }"
+}

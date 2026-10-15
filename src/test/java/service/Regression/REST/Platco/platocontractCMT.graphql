@@ -1,0 +1,16 @@
+query($contractIdVar: ID!){
+    contract(contractId: $contractIdVar) {
+        customerRelationshipId
+        languageInd
+        termId
+        legalName
+        legalText
+        partner
+        documentUrl
+        version
+        createdTimestamp
+        createdBy
+        updatedTimestamp
+        updatedBy
+    }
+}

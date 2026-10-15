@@ -1,0 +1,13 @@
+{
+  "contractCriteria": {
+    "customerIdentifier": [
+      {
+        "key": "PHONE_NUMBER",
+        "value": "#(PhoneNumber)"
+      }
+    ],
+    "termID": [
+      "#(TermID)"
+    ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "customerIdentifier": {
+    "key": "ACCOUNT_NUMBER",
+    "value": "#(Acc_Presented1)"
+  },
+  "orderID": "#(OrderId1)",
+  "salesChannel": "SalesChannel_QA",
+  "acceptanceMethod": "WEB",
+  "campaignCode": null,
+  "contractSpecification": [
+    {
+      "termID": "#(TermID)",
+      "termQualifiers": {
+        "language": "ENGLISH",
+        "marketID": "24140"
+      },
+      "contractStartDate": "#(global_extension.todaysDate)",
+      "legacyContractDetail": {
+        "billerTrackingCode": "#(TrackingCode)",
+        "billerAcceptanceCode": "#(CSG_AcceptanceCode)",
+        "outlet": "#(Outlet1)"
+      },
+      "durationInMonths": null,
+      "eTFDetail": null,
+      "valueAdd": null,
+      "requiredProductNumbers": null,
+      "contractParameterGroup": null,
+      "signer": [
+        {
+          "name": "Srini",
+          "emailAddress": "cmstest@testemail.com",
+          "role": "CUSTOMER",
+          "getDocusignURLForSigner": null,
+          "redirectURL": null
+        }
+      ],
+      "contractParameter": [
+        {
+          "key": "Account_Number",
+          "value": "#(Acc_Presented1)"
+        },
+        {
+          "key": "OrderDate",
+          "value": "2015-01-18"
+        },
+        {
+          "key": "ACCEPTANCECHANNEL",
+          "value": "QA"
+        },
+        {
+          "key": "ORDERID",
+          "value": "1"
+        },
+        {
+          "key": "CustomerFirstName",
+          "value": "Srinivassan"
+        },
+        {
+          "key": "CustomerLastName",
+          "value": "Shanmugam"
+        },
+        {
+          "key": "CustomerBillingAddressStreet",
+          "value": "12801 Worldgate Drive"
+        },
+        {
+          "key": "CustomerBillingAddressLine2",
+          "value": "-"
+        },
+        {
+          "key": "CustomerBillingAddressCity",
+          "value": "Herndon"
+        },
+        {
+          "key": "CustomerBillingAddressState",
+          "value": "VA"
+        },
+        {
+          "key": "CustomerBillingAddressZip",
+          "value": "20170"
+        },
+        {
+          "key": "CustomerServiceAddressStreet",
+          "value": "12801 Worldgate Drive"
+        },
+        {
+          "key": "CustomerServiceAddressLine2",
+          "value": "-"
+        },
+        {
+          "key": "CustomerServiceAddressCity",
+          "value": "Herndon"
+        },
+        {
+          "key": "CustomerServiceAddressState",
+          "value": "VA"
+        },
+        {
+          "key": "CustomerServiceAddressZip",
+          "value": "20170"
+        },
+        {
+          "key": "Outlet",
+          "value": "1"
+        }
+      ]
+    }
+  ]
+}

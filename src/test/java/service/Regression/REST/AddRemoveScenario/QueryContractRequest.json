@@ -1,0 +1,13 @@
+{
+  "contractCriteria": {
+    "customerIdentifier": [
+      {
+        "key": "ACCOUNT_NUMBER",
+        "value": "#(Account_Number)"
+      }
+    ],
+    "termID": [
+      "#(TermID)"
+    ]
+  }
+}

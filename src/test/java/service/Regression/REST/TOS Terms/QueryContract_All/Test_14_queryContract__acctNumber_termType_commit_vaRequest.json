@@ -1,0 +1,15 @@
+{
+  "contractCriteria": {
+    "termID": null,
+    "termType": [
+      "COMMIT_VA"
+    ],
+    "customerIdentifier": [
+      {
+        "key": "ACCOUNT_NUMBER",
+        "value": "8210100200228895"
+      }
+    ]
+  },
+  "resultSpecification": null
+}

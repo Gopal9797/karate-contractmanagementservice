@@ -1,0 +1,42 @@
+{
+  "accountNumber": "#(CSG_Acc)",
+  "orderID": "#(OrderId)",
+  "orderScheduledDate": "#(global_extension.todaysDate)",
+  "salesChannel": "CMS",
+  "acceptanceMethod": "#(AcceptanceMethod)",
+  "language": "ENGLISH",
+  "cancelOrder": "false",
+  "disconnectAccount": "false",
+  "billingContractSpecification": [
+    {
+      "billingCode": "#(CSG_TrackingCode)",
+      "outlet": null,
+      "termID": "#(TermID)",
+      "startDate": "#(global_extension.currentTime)",
+      "endDate": null,
+      "action": "ADD"
+    }
+  ],
+  "baseContractParameter": [
+    {
+      "key": "Account_Number",
+      "value": "#(CSG_Acc)"
+    },
+    {
+      "key": "OrderDate",
+      "value": "#(global_extension.todaysDate)"
+    },
+    {
+      "key": "ACCEPTANCECHANNEL",
+      "value": "VISION"
+    },
+    {
+      "key": "ORDERID",
+      "value": "#(OrderId)"
+    },
+    {
+      "key": "TERM_LENGTH",
+      "value": "24"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "accountNumber": "#(Acc_Accepted1)",
+  "contractID": "#(contractID)",
+  "status": "ACCEPTED",
+  "acceptanceMethod": "DOT_COM"
+}

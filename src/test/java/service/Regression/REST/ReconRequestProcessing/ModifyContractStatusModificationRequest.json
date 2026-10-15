@@ -1,0 +1,6 @@
+{
+  "acceptanceMethod": "WEB",
+  "contractID": "#(contractID)",
+  "orderID": "#(OrderId)",
+  "status": "TERMINATED"
+}

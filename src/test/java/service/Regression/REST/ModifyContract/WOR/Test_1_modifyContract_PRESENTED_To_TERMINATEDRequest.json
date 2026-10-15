@@ -1,0 +1,7 @@
+{
+  "contractID": "#(contractID)",
+  "status": "TERMINATED",
+  "orderID": "1160005567251015",
+  "contractEndDate": "#(global_extension.todaysDate)",
+  "acceptanceMethod": "DOT_COM"
+}

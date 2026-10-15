@@ -1,0 +1,13 @@
+{
+  "contractCriteria": {
+    "customerIdentifier": [
+      {
+        "key": "ACCOUNT_NUMBER",
+        "value": "8919100011743300"
+      }
+    ],
+    "termType": [
+      "TERMS_OF_SERVICE"
+    ]
+  }
+}

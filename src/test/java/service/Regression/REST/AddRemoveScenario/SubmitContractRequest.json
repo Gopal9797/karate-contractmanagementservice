@@ -1,0 +1,23 @@
+{
+  "acceptanceMethod": "WEB",
+  "accountNumber": "#(AccountNumber)",
+  "cancelOrder": "false",
+  "disconnectAccount": "false",
+  "orderScheduledDate": "#(global_extension.todaysDate)",
+  "billingContractSpecification": [
+    {
+      "billingCode": "#(CSG_TrackingCode)",
+      "action": "ADD",
+      "startDate": "#(global_extension.fiveDaysAfter)"
+    },
+    {
+      "billingCode": "#(CSG_TrackingCode)",
+      "action": "REMOVE",
+      "startDate": "#(global_extension.todaysDate)"
+    }
+  ],
+  "baseContractParameter": null,
+  "orderID": "#(OrderId)",
+  "language": "ENGLISH",
+  "salesChannel": "Web"
+}

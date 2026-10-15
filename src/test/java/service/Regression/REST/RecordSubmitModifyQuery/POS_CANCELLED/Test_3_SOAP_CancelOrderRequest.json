@@ -1,0 +1,21 @@
+{
+  "accountNumber": "#(Acc_Presented1)",
+  "orderID": "#(OrderId1)",
+  "orderScheduledDate": "#(global_extension.todaysDate)",
+  "salesChannel": "CMS",
+  "acceptanceMethod": "Agent_Acceptance",
+  "baseContractParameter": null,
+  "language": "ENGLISH",
+  "cancelOrder": "true",
+  "disconnectAccount": "false",
+  "billingContractSpecification": [
+    {
+      "billingCode": "#(TrackingCode)",
+      "outlet": null,
+      "termID": "#(TermID)",
+      "startDate": null,
+      "endDate": null,
+      "action": "CANCEL"
+    }
+  ]
+}

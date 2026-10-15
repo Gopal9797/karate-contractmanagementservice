@@ -1,0 +1,21 @@
+{
+  "contractCriteria": {
+    "termID": [
+      "CC13"
+    ],
+    "orderID": "1",
+    "status": [
+      "ACCEPTED"
+    ],
+    "termType": [
+      "TERMS_OF_SERVICE"
+    ],
+    "customerIdentifier": [
+      {
+        "key": "Account_Number",
+        "value": "#(DDP_Acc)"
+      }
+    ]
+  },
+  "resultSpecification": null
+}

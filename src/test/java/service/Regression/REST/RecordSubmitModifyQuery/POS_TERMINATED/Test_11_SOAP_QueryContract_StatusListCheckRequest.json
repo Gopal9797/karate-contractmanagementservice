@@ -1,0 +1,17 @@
+{
+  "contractCriteria": {
+    "customerIdentifier": [
+      {
+        "key": "ACCOUNT_NUMBER",
+        "value": "#(Acc_Presented1)"
+      }
+    ],
+    "termID": null,
+    "orderID": null,
+    "status": [
+      "PRESENTED",
+      "TERMINATED"
+    ]
+  },
+  "resultSpecification": null
+}

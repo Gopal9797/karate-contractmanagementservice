@@ -1,0 +1,69 @@
+{
+  "acceptanceMethod": "EMAIL",
+  "contractSpecification": [
+    {
+      "contractParameter": [
+        {
+          "key": "CustomerFirstName",
+          "value": "DIANE"
+        },
+        {
+          "key": "CustomerLastName",
+          "value": "JANCEK"
+        },
+        {
+          "key": "CustomerServiceAddressStreet",
+          "value": "1845 KINSEY ST"
+        },
+        {
+          "key": "CustomerServiceAddressCity",
+          "value": "MUSKEGON"
+        },
+        {
+          "key": "CustomerServiceAddressState",
+          "value": "MI"
+        },
+        {
+          "key": "CustomerServiceAddressZip",
+          "value": "49441"
+        },
+        {
+          "key": "OrderID",
+          "value": "1001020684392116"
+        },
+        {
+          "key": "AcceptanceChannel",
+          "value": "EPC_CHANNEL"
+        },
+        {
+          "key": "Account_Number",
+          "value": "8529113050135132"
+        },
+        {
+          "key": "AffiliateName",
+          "value": "ACSR"
+        }
+      ],
+      "contractParameterGroup": [],
+      "contractStartDate": 1652241600000,
+      "requiredProductNumbers": [],
+      "signer": [
+        {
+          "name": "DIANE JANCEK",
+          "role": "CUSTOMER"
+        }
+      ],
+      "termID": "TOS_DATA_PLAN",
+      "termQualifiers": {
+        "language": "ENGLISH",
+        "marketID": "15719"
+      }
+    }
+  ],
+  "customerIdentifier": {
+    "key": "ACCOUNT_NUMBER",
+    "value": "8069100010869088"
+  },
+  "orderID": "1001020684392116",
+  "salesChannel": "EPC_CHANNEL"
+}

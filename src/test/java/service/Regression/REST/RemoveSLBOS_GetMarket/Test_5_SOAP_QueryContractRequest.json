@@ -1,0 +1,15 @@
+{
+  "contractCriteria": {
+    "customerIdentifier": [
+      {
+        "key": "ACCOUNT_NUMBER",
+        "value": "#(CSG_Acc)"
+      }
+    ],
+    "termID": null,
+    "orderID": null,
+    "status": null,
+    "termType": null
+  },
+  "resultSpecification": null
+}

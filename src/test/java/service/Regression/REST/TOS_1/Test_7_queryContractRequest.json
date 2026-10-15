@@ -1,0 +1,13 @@
+{
+  "contractCriteria": {
+    "customerIdentifier": [
+      {
+        "key": "ACCOUNT_NUMBER",
+        "value": "8210100200239991"
+      }
+    ],
+    "termID": [
+      "TOS_LEARN_MORE_BTV_RSN"
+    ]
+  }
+}

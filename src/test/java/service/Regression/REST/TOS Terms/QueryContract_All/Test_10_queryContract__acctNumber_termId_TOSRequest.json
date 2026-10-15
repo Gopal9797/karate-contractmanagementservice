@@ -1,0 +1,14 @@
+{
+  "contractCriteria": {
+    "termID": [
+      "XMOBILE_CONSENT_DS01"
+    ],
+    "customerIdentifier": [
+      {
+        "key": "Identity_Id",
+        "value": "8210100200228895"
+      }
+    ]
+  },
+  "resultSpecification": null
+}

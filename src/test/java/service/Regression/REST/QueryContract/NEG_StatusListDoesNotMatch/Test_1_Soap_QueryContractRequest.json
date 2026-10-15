@@ -1,0 +1,16 @@
+{
+  "contractCriteria": {
+    "customerIdentifier": [
+      {
+        "key": "ACCOUNT_NUMBER",
+        "value": "#(Acc2)"
+      }
+    ],
+    "termID": null,
+    "orderID": null,
+    "status": [
+      "CANCELLED"
+    ]
+  },
+  "resultSpecification": null
+}

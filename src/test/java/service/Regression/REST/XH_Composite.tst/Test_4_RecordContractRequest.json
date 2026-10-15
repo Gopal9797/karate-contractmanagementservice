@@ -1,0 +1,141 @@
+{
+  "contractSpecification": [
+    {
+      "contractParameter": [
+        {
+          "key": "Technician_Name",
+          "value": "Manikantha"
+        },
+        {
+          "key": "Technician_Id",
+          "value": "12345"
+        },
+        {
+          "key": "Job_Id",
+          "value": "99876"
+        },
+        {
+          "key": "Customer_Name",
+          "value": "Elissa"
+        },
+        {
+          "key": "Account_Number",
+          "value": "8210100200228697"
+        },
+        {
+          "key": "Phone_Number",
+          "value": "5713329981"
+        },
+        {
+          "key": "Street_Address",
+          "value": "2121 Wilkes Ct"
+        },
+        {
+          "key": "City",
+          "value": "Herndon"
+        },
+        {
+          "key": "State",
+          "value": "VA"
+        },
+        {
+          "key": "ZipCode",
+          "value": "20170"
+        }
+      ],
+      "presentationOrder": 1,
+      "signer": [
+        {
+          "emailAddress": "Manikantha_Pothuri@cable.comcast.com",
+          "getDocusignURLForSigner": true,
+          "name": "Manikantha",
+          "redirectURL": "http://www.google.com",
+          "role": "Technician"
+        },
+        {
+          "emailAddress": "Amer_Elissa@cable.comcast.com",
+          "getDocusignURLForSigner": false,
+          "name": "Elissa",
+          "redirectURL": "http://www.google.com",
+          "role": "Customer"
+        }
+      ],
+      "termID": "XH_SUB",
+      "termQualifiers": {
+        "language": "ENGLISH",
+        "stateCode": "AL"
+      }
+    },
+    {
+      "contractParameter": [
+        {
+          "key": "Technician_Name",
+          "value": "Manikantha"
+        },
+        {
+          "key": "Technician_Id",
+          "value": "12345"
+        },
+        {
+          "key": "Job_Id",
+          "value": "99876"
+        },
+        {
+          "key": "Customer_Name",
+          "value": "Elissa"
+        },
+        {
+          "key": "Account_Number",
+          "value": "8210100200228697"
+        },
+        {
+          "key": "Phone_Number",
+          "value": "5713329981"
+        },
+        {
+          "key": "Street_Address",
+          "value": "2121 Wilkes Ct"
+        },
+        {
+          "key": "City",
+          "value": "Herndon"
+        },
+        {
+          "key": "State",
+          "value": "VA"
+        },
+        {
+          "key": "ZipCode",
+          "value": "20170"
+        }
+      ],
+      "presentationOrder": 2,
+      "signer": [
+        {
+          "emailAddress": "Manikantha_Pothuri@cable.comcast.com",
+          "getDocusignURLForSigner": false,
+          "name": "Manikantha",
+          "redirectURL": "http://www.google.com",
+          "role": "Technician"
+        },
+        {
+          "emailAddress": "Amer_Elissa@cable.comcast.com",
+          "getDocusignURLForSigner": false,
+          "name": "Elissa",
+          "redirectURL": "http://www.google.com",
+          "role": "Customer"
+        }
+      ],
+      "termID": "XH_EQUIP",
+      "termQualifiers": {
+        "language": "ENGLISH",
+        "stateCode": "AL"
+      }
+    }
+  ],
+  "customerIdentifier": {
+    "key": "ACCOUNT_NUMBER",
+    "value": "8210100200681879"
+  },
+  "orderID": "1160021420351017"
+}

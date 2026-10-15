@@ -1,0 +1,44 @@
+{
+  "accountNumber": "#(Acc_Presented1)",
+  "orderID": "#(OrderId1)",
+  "orderScheduledDate": "2018-10-10",
+  "salesChannel": "CMS",
+  "acceptanceMethod": "Agent_Acceptance",
+  "language": "ENGLISH",
+  "cancelOrder": "false",
+  "disconnectAccount": "false",
+  "billingContractSpecification": [
+    {
+      "billingCode": "#(TrackingCode)",
+      "outlet": "#(Outlet1)",
+      "termID": null,
+      "startDate": "2018-10-10",
+      "endDate": null,
+      "action": "ADD",
+      "overrideContractParameter": [
+        {
+          "key": "OUTLET",
+          "value": "#(Outlet1)"
+        }
+      ]
+    }
+  ],
+  "baseContractParameter": [
+    {
+      "key": "Account_Number",
+      "value": "#(Acc_Presented1)"
+    },
+    {
+      "key": "OrderDate",
+      "value": "2018-10-10"
+    },
+    {
+      "key": "ACCEPTANCECHANNEL",
+      "value": "VISION"
+    },
+    {
+      "key": "ORDERID",
+      "value": "#(OrderId1)"
+    }
+  ]
+}

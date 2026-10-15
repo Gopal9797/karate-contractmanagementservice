@@ -1,0 +1,37 @@
+{
+  "acceptanceMethod": "WEB",
+  "contractSpecification": [
+    {
+      "contractParameter": [
+        {
+          "key": "CustomerFirstName",
+          "value": "Walter"
+        },
+        {
+          "key": "CustomerLastName",
+          "value": "White"
+        }
+      ],
+      "contractStartDate": "#(global_extension.todaysDate)",
+      "signer": [
+        {
+          "emailAddress": "cmstest@comcast.com",
+          "name": "CMSTest",
+          "role": "CUSTOMER"
+        }
+      ],
+      "termID": "#(TermID)",
+      "termQualifiers": {
+        "language": "ENGLISH",
+        "marketID": "11425",
+        "stateCode": "AL"
+      }
+    }
+  ],
+  "customerIdentifier": {
+    "key": "ACCOUNT_NUMBER",
+    "value": "#(AccountNumber)"
+  },
+  "orderID": "#(OrderId)",
+  "salesChannel": "SalesChannel_QA"
+}

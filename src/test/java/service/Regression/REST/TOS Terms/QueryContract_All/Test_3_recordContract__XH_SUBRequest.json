@@ -1,0 +1,86 @@
+{
+  "customerIdentifier": {
+    "key": "Account_Number",
+    "value": "8210100200228895"
+  },
+  "orderID": "1160005567251015",
+  "salesChannel": "SalesChannel_QA",
+  "acceptanceMethod": "WEB",
+  "campaignCode": null,
+  "contractSpecification": [
+    {
+      "termID": "XH_SUB",
+      "termQualifiers": {
+        "language": "ENGLISH",
+        "marketID": null,
+        "stateCode": "AL"
+      },
+      "contractStartDate": "#(global_extension.todaysDate)",
+      "legacyContractDetail": null,
+      "durationInMonths": null,
+      "eTFDetail": null,
+      "valueAdd": null,
+      "requiredProductNumbers": null,
+      "contractParameterGroup": null,
+      "presentationOrder": "2",
+      "signer": [
+        {
+          "name": "Amer",
+          "emailAddress": "Amer@test.com",
+          "role": "CUSTOMER",
+          "getDocusignURLForSigner": null,
+          "redirectURL": null
+        },
+        {
+          "name": "Mani",
+          "emailAddress": "Mani@test.com",
+          "role": "TECHNICIAN",
+          "getDocusignURLForSigner": "true",
+          "redirectURL": "http://www.google.com"
+        }
+      ],
+      "contractParameter": [
+        {
+          "key": "Account_Number",
+          "value": "8210100200228895"
+        },
+        {
+          "key": "Technician_Name",
+          "value": "Mani"
+        },
+        {
+          "key": "Technician_Id",
+          "value": "123456"
+        },
+        {
+          "key": "Job_Id",
+          "value": "987654"
+        },
+        {
+          "key": "Customer_Name",
+          "value": "Amer"
+        },
+        {
+          "key": "Street_Address",
+          "value": "2121 Wilkes Ct"
+        },
+        {
+          "key": "City",
+          "value": "Herndon"
+        },
+        {
+          "key": "State",
+          "value": "VA"
+        },
+        {
+          "key": "Zipcode",
+          "value": "20170"
+        },
+        {
+          "key": "Phone_Number",
+          "value": "7039398379"
+        }
+      ]
+    }
+  ]
+}

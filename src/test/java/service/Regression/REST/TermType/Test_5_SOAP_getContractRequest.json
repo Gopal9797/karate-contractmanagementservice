@@ -1,0 +1,17 @@
+{
+  "contractID": [
+    "#(Test2contractID)"
+  ],
+  "responseSpecification": {
+    "dataScope": [
+      "ETF_DETAILS",
+      "LEGAL_DOCUMENT",
+      "SIGNER_DETAILS",
+      "CONTRACT_PARAMETERS",
+      "VALUE_ADD_DETAILS",
+      "PRESENTATION_VIEW",
+      "DOCUSIGN_DETAILS"
+    ],
+    "presentationViewName": "POST_ORDER_SUMMARY"
+  }
+}

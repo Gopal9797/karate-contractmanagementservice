@@ -1,0 +1,17 @@
+{
+  "contractCriteria": {
+    "termID": [
+      "XMOBILE_CONSENT_DS01",
+      "XH_EQUIP",
+      "XH_SUB",
+      "NON_DS_TEST_COMMIT_WO_VA_DO_NOT_USE"
+    ],
+    "customerIdentifier": [
+      {
+        "key": "ACCOUNT_NUMBER",
+        "value": "8210100200228895"
+      }
+    ]
+  },
+  "resultSpecification": null
+}

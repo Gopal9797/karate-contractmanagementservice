@@ -1,0 +1,17 @@
+{
+  "contractID": [
+    "6c11d0f0-57dc-11ea-a47e-efd7e738a552"
+  ],
+  "responseSpecification": {
+    "dataScope": [
+      "ETF_DETAILS",
+      "LEGAL_DOCUMENT",
+      "SIGNER_DETAILS",
+      "CONTRACT_PARAMETERS",
+      "VALUE_ADD_DETAILS",
+      "PRESENTATION_VIEW",
+      "BILLING_CODE_DETAILS"
+    ],
+    "presentationViewName": "POST_ORDER_SUMMARY"
+  }
+}

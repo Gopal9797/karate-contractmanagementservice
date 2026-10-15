@@ -1,0 +1,15 @@
+{
+  "contractCriteria": {
+    "customerIdentifier": [
+      {
+        "key": "ACCOUNT_NUMBER",
+        "value": "#(Acc_Presented1)",
+        "contractID": "#(contractID)"
+      }
+    ],
+    "termID": null,
+    "orderID": "#(OrderId1)",
+    "status": null
+  },
+  "resultSpecification": null
+}

@@ -1,0 +1,10 @@
+{
+  "customerRelationshipId": "#(global_extension.uuid)",
+  "languageInd": "ENGLISH",
+  "legalName": "Terms of service - online usage",
+  "legalText": "Terms and Conditions for 2 Year Agreement",
+  "partner": "xglobal",
+  "termId": "PLATCO_TERM_ID",
+  "documentUrl": "#(global_extension.documentURL)",
+  "version": "1.0"
+}

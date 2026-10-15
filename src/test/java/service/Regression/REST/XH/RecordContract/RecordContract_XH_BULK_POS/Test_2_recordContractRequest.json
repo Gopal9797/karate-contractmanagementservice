@@ -1,0 +1,86 @@
+{
+  "customerIdentifier": {
+    "key": "ACCOUNT_NUMBER",
+    "value": "8210100200228895"
+  },
+  "orderID": "#(OrderId)",
+  "salesChannel": null,
+  "acceptanceMethod": null,
+  "campaignCode": null,
+  "contractSpecification": [
+    {
+      "termID": "XH_BULK",
+      "termQualifiers": {
+        "language": "ENGLISH",
+        "marketID": "24140",
+        "stateCode": "CT"
+      },
+      "contractStartDate": null,
+      "legacyContractDetail": null,
+      "durationInMonths": null,
+      "eTFDetail": null,
+      "valueAdd": null,
+      "requiredProductNumbers": null,
+      "contractParameterGroup": null,
+      "presentationOrder": "1",
+      "signer": [
+        {
+          "name": "Manikantha Pothuri",
+          "emailAddress": "Manikantha_Pothuri@cable.comcast.com",
+          "role": "Technician",
+          "getDocusignURLForSigner": "true",
+          "redirectURL": "http://www.google.com"
+        },
+        {
+          "name": "Amer Elissa",
+          "emailAddress": "Amer_Elissa@cable.comcast.com",
+          "role": "Customer",
+          "getDocusignURLForSigner": "false",
+          "redirectURL": null
+        }
+      ],
+      "contractParameter": [
+        {
+          "key": "Technician_Name",
+          "value": "Manikantha"
+        },
+        {
+          "key": "Technician_Id",
+          "value": "12345"
+        },
+        {
+          "key": "Customer_Name",
+          "value": "Elissa"
+        },
+        {
+          "key": "Job_Id",
+          "value": "99876"
+        },
+        {
+          "key": "Account_Number",
+          "value": "8210100200228895"
+        },
+        {
+          "key": "Phone_Number",
+          "value": "5713429981"
+        },
+        {
+          "key": "Street_Address",
+          "value": "2120 Wordsworth Ct"
+        },
+        {
+          "key": "City",
+          "value": "Herndon"
+        },
+        {
+          "key": "State",
+          "value": "Viriginia"
+        },
+        {
+          "key": "Zipcode",
+          "value": "20170"
+        }
+      ]
+    }
+  ]
+}
